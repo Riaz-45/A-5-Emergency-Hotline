@@ -51,9 +51,14 @@ for(const call of calls){
 
         calHistory.appendChild(div);
         
-        
     })
 }
+
+// clear all history
+
+document.getElementById('clear-btn').addEventListener('click', function(){
+    document.getElementById('call-history').innerHTML = '';
+})
 
 
 // for copy button functionalities
